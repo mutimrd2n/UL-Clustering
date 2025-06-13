@@ -28,6 +28,8 @@ X, y = make_moons(n_samples=500, noise=0.05, random_state=42)
 - 500 data titik, fitur `x1`, `x2`
 - Label hanya untuk evaluasi
 
+---
+
 ## 🔧 Tahapan dan Teknologi
 
 1. Generate data dengan `make_moons()`
@@ -40,6 +42,8 @@ Teknologi:
 - Python 3.x
 - `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
 
+---
+
 ## 📈 Hasil dan Evaluasi
 
 - Cluster 0: 250 data
@@ -47,9 +51,13 @@ Teknologi:
 - Outlier: 0 data
 - ARI: 1.00 ✅ (clustering sempurna)
 
+---
+
 ## 🖼️ Visualisasi
 
 ![Hasil Clustering DBSCAN](./7a04f96e-a487-483f-97b7-1e89c798923a.png)
+
+---
 
 ## ▶️ Cara Menjalankan
 
@@ -59,6 +67,8 @@ cd dbscan-clustering-moons
 pip install numpy pandas matplotlib seaborn scikit-learn
 python dbscan_moons.py
 ```
+
+---
 
 ## 🎯 Penjelasan DBSCAN
 
