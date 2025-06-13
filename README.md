@@ -24,6 +24,7 @@ Dataset yang digunakan berasal dari fungsi `make_moons()`:
 ```python
 from sklearn.datasets import make_moons
 X, y = make_moons(n_samples=500, noise=0.05, random_state=42)
+```
 
 - 500 data titik, fitur `x1`, `x2`
 - Label hanya untuk evaluasi
