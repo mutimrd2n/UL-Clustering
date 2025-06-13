@@ -1,21 +1,25 @@
-# 🧠 DBSCAN Clustering on `make_moons()` Dataset
+# 🧠 Clustering Data Non-Linear dengan DBSCAN (`make_moons()`)
 
-This repository contains an implementation of **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** using the popular `make_moons()` dataset from scikit-learn.  
-It demonstrates how DBSCAN can effectively separate non-linear clusters and detect outliers.
-
----
-
-## 📌 Project Overview
-
-- **Goal**: Apply DBSCAN to non-linear data (`make_moons`) and evaluate clustering quality
-- **Method**: Density-based clustering (DBSCAN)
-- **Evaluation**: Visual inspection + Adjusted Rand Index (ARI)
+Repositori ini berisi implementasi dan eksplorasi algoritma **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**  
+menggunakan dataset simulasi `make_moons()` dari pustaka `scikit-learn`. Proyek ini merupakan bagian dari tugas kuliah  
+**Kecerdasan Buatan (Artificial Intelligence)** dengan topik **Unsupervised Learning – Clustering**.
 
 ---
 
-## 📁 Dataset
+## 📌 Tujuan Proyek
 
-Using synthetic data generated from:
+Tujuan utama dari proyek ini adalah:
+
+- Menerapkan algoritma DBSCAN untuk melakukan klasterisasi data tanpa label (unsupervised)
+- Menangani bentuk klaster yang tidak bisa dipisahkan secara linear
+- Menggunakan metrik evaluasi untuk menilai kualitas hasil klasterisasi
+- Memahami perbedaan antara DBSCAN dan algoritma lain seperti K-Means
+
+---
+
+## 📁 Deskripsi Dataset
+
+Dataset yang digunakan berasal dari fungsi `make_moons()`:
 
 ```python
 from sklearn.datasets import make_moons
